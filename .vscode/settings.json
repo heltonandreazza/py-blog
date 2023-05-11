@@ -1,0 +1,14 @@
+{
+    "python.defaultInterpreterPath": "~/.pyenv/versions/3.9.16/bin/python",
+    "python.languageServer": "Pylance",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none",
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-text",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    }
+}
